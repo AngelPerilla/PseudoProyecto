@@ -1,0 +1,7 @@
+# Ignore files and folders that are not essential to the project
+
+# Virtual Environment
+.vscode/
+.idea/
+.venv/
+*.pyc
