@@ -1,0 +1,11 @@
+{% if productos %}
+    <ul>
+    {% for producto in productos %}
+        <li>
+            {{ producto.nombre }} ({{ producto.precio }}) - Stock: {{ producto.cantidad }}
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No productos disponibles.</p>
+{% endif %}
